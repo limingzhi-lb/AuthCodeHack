@@ -1,8 +1,8 @@
 #coding:utf-8
-from gen_captcha import gen_captcha_text_and_image
-from gen_captcha import number
-from gen_captcha import alphabet
-from gen_captcha import ALPHABET
+from captcha_generator import gen_captcha_text_and_image
+from captcha_generator import number
+from captcha_generator import alphabet
+from captcha_generator import ALPHABET
 
 import numpy as np
 import tensorflow as tf
