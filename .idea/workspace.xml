@@ -2,22 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4b873c50-d14c-40b8-a5d2-dc5cb0860cff" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/captcha_generator/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/captcha_generator/captcha_generator.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/create_image/create_image.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/create_image/image/0GXh.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/create_image/image/0a8m.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/create_image/image/0h6Y.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/create_image/image/0l1w.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/create_image/tensorflow_cnn.py" beforeDir="false" afterPath="$PROJECT_DIR$/create_image/tensorflow_cnn.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/create_image/tensorflow_cnn0.py" beforeDir="false" afterPath="$PROJECT_DIR$/create_image/tensorflow_cnn0.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gen_captcha.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorflow_cnn_test_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/tensorflow_cnn_test_model.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorflow_cnn_train.py" beforeDir="false" afterPath="$PROJECT_DIR$/tensorflow_cnn_train.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/captcha_generator/captcha_generator.py" beforeDir="false" afterPath="$PROJECT_DIR$/captcha_generator/captcha_generator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config.yaml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -30,8 +17,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/captcha_generator/captcha_generator.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+            <state relative-caret-position="197">
+              <caret line="11" column="64" lean-forward="true" selection-start-line="11" selection-start-column="64" selection-end-line="11" selection-end-column="64" />
               <folding>
                 <element signature="e#15#28#0" expanded="true" />
               </folding>
@@ -42,8 +29,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config.yaml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="6" column="6" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="6" />
+            <state relative-caret-position="76">
+              <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -51,8 +38,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/config.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="14" column="17" lean-forward="true" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+            <state relative-caret-position="180">
+              <caret line="11" column="59" selection-start-line="11" selection-start-column="59" selection-end-line="11" selection-end-column="59" />
             </state>
           </provider>
         </entry>
@@ -98,10 +85,10 @@
         <option value="$PROJECT_DIR$/create_image/create_image.py" />
         <option value="$PROJECT_DIR$/gen_captcha.py" />
         <option value="$PROJECT_DIR$/create_image/tensorflow_cnn.py" />
-        <option value="$PROJECT_DIR$/config.yaml" />
         <option value="$PROJECT_DIR$/captcha/captcha.py" />
         <option value="$PROJECT_DIR$/captcha_generater/captcha.py" />
         <option value="$PROJECT_DIR$/captcha_generator/captcha_generator.py" />
+        <option value="$PROJECT_DIR$/config.yaml" />
         <option value="$PROJECT_DIR$/config.py" />
       </list>
     </option>
@@ -128,6 +115,12 @@
               <item name="CaptchaHack" type="b2602c69:ProjectViewProjectNode" />
               <item name="AuthCodeHack" type="462c0819:PsiDirectoryNode" />
               <item name="captcha_generator" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CaptchaHack" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AuthCodeHack" type="462c0819:PsiDirectoryNode" />
+              <item name="captcha_generator" type="462c0819:PsiDirectoryNode" />
+              <item name="image" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="CaptchaHack" type="b2602c69:ProjectViewProjectNode" />
@@ -200,7 +193,7 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/captcha_generator" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
@@ -234,6 +227,11 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Python.captcha" />
+      <item itemvalue="Python.captcha_generator" />
+      <item itemvalue="Python.cteate_image" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.captcha_generator" />
@@ -259,7 +257,7 @@
     <frame x="-1920" y="-84" width="1920" height="1080" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18423855" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18423855" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info id="Project Explorer" order="3" />
@@ -267,7 +265,7 @@
       <window_info id="Job Explorer" order="5" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32970297" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.36831683" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.36831683" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -316,23 +314,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/captcha_generator/captcha_generator.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
-          <folding>
-            <element signature="e#15#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="6" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -350,10 +331,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/captcha_generator/captcha_generator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="11" column="64" lean-forward="true" selection-start-line="11" selection-start-column="64" selection-end-line="11" selection-end-column="64" />
+          <folding>
+            <element signature="e#15#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/config.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="14" column="17" lean-forward="true" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+        <state relative-caret-position="180">
+          <caret line="11" column="59" selection-start-line="11" selection-start-column="59" selection-end-line="11" selection-end-column="59" />
         </state>
       </provider>
     </entry>

@@ -9,7 +9,7 @@ class Captcha(ImageCaptcha):
     """
     用于生成验证码
     """
-    def __init__(self, charset, captcha_size=config.captcha_sizea, width=160, height=60, fonts=None, font_sizes=None):
+    def __init__(self, charset, captcha_size=config.captcha_size, width=160, height=60, fonts=None, font_sizes=None):
         """
 
         :param charset: 参与生成验证码的字符列表, [1, 2, 3, 'a', 'c']

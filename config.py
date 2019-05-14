@@ -10,13 +10,13 @@ class Confiig(object):
         # todo 改为定时加载
         try:
             with open(os.path.abspath('config.yaml')) as f:
-                self.config = yaml.load(f)
+                self.config = yaml.safe_load(f)
         except FileNotFoundError:
-            raise
+            raise BaseException('config.yaml not found!')
 
     @property
     def captcha(self):
-        return self.config['captcha_generator']
+        return self.config['captcha']
 
     @property
     def captcha_size(self):
