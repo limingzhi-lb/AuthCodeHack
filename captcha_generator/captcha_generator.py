@@ -33,8 +33,9 @@ class Captcha(ImageCaptcha):
     def generate_and_save_image(self, num=1, path=config.path):
         for _ in range(num):
             text = self.generate_text()
-            self.generate(text)
             self.write(text, '{}/{}.jpg'.format(path, text))
+            yield self.generate(text)
+
 
 
 if __name__ == '__main__':

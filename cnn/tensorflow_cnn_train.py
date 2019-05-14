@@ -1,11 +1,55 @@
 #coding:utf-8
-from captcha_generator import gen_captcha_text_and_image
-from captcha_generator import number
-from captcha_generator import alphabet
-from captcha_generator import ALPHABET
+# from captcha_generator import gen_captcha_text_and_image
+# from captcha_generator import number
+# from captcha_generator import alphabet
+# from captcha_generator import ALPHABET
 
 import numpy as np
 import tensorflow as tf
+
+
+class ImageProcessor(object):
+    def __init__(self, image, text, height=60, width=160):
+        self.image = image
+        self.text = text
+        self.height = height
+        self.width = width
+
+    def convert2gray(self):
+        if len(self.image.shape) > 2:
+            # gray = np.mean(self.image, -1)
+            # 上面的转法较快，正规转法如下
+            r, g, b = self.image[:, :, 0], self.image[:, :, 1], self.image[:, :, 2]
+            gray = 0.2989 * r + 0.5870 * g + 0.1140 * b
+            return gray
+        else:
+            return self.image
+
+    def text2vec(self):
+        text_len = len(self.text)
+        if text_len > MAX_CAPTCHA:
+            raise ValueError('验证码最长4个字符')
+
+        vector = np.zeros(MAX_CAPTCHA * CHAR_SET_LEN)  # 生成一个默认为0的向量
+
+        def char2pos(c):
+            if c == '_':
+                k = 62
+                return k
+            k = ord(c) - 48
+            if k > 9:
+                k = ord(c) - 55
+                if k > 35:
+                    k = ord(c) - 61
+                    if k > 61:
+                        raise ValueError('No Map')
+            return k
+
+        for i, c in enumerate(self.text):
+            idx = i * CHAR_SET_LEN + char2pos(c)
+            vector[idx] = 1
+        return vector
+
 
 text, image = gen_captcha_text_and_image()
 print("验证码图像channel:", image.shape)  # (60, 160, 3)
